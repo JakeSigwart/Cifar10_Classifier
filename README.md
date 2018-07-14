@@ -17,7 +17,8 @@ Download CUDA toolkit from: https://developer.nvidia.com/cuda-downloads. Downloa
 Download this repository. Download the Cifar10 dataset and un-zip into the repository folder. The dataset is available at: https://www.cs.toronto.edu/~kriz/cifar.html.
 
 ## Performance
-
+The model was trained on 900 batches of 256 images. This is a total of 230,400 images however, a pre-processing layer randomly distorted the images during training. The distortions involved changing contrast, hue and randomly flipping images horizontally. The optimization function used is AdamOptimizer with learning_rate=1e-4. The training accuracy is shown below.
+![alt text](
 
 
 

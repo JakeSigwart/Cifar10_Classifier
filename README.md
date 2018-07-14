@@ -18,8 +18,9 @@ Download this repository. Download the Cifar10 dataset and un-zip into the repos
 
 ## Performance
 The model was trained on 900 batches of 256 images. This is a total of 230,400 images however, a pre-processing layer randomly distorted the images during training. The distortions involved changing contrast, hue and randomly flipping images horizontally. The optimization function used is AdamOptimizer with learning_rate=1e-4. The training accuracy is shown below.
-![alt text](
 
+![alt text](https://github.com/JakeSigwart/Cifar10_Classifier/blob/master/train_acc_plot.png)
 
+This training session took 103.43 seconds averaging about 0.00045 seconds per image. when this model was tested on the test dataset, the accuracy acheived was only: 37.4%.
 
 
